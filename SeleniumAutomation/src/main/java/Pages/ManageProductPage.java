@@ -96,6 +96,7 @@ public class ManageProductPage {
  }
  public ManageProductPage selectTheCategorySubValue(String CategorySubOption)
  {
+	CategorySubValue.click();
 	PageUtility.selectDropDownUsingVisibleText(CategorySubValue,CategorySubOption );
 	return this;
  
