@@ -11,7 +11,13 @@
       <class name="testscripts.CategoryTest">
 		  <methods>
 			  <include name="verifyTheUserCanAddTheEditTheCategoryPageByFileUpload"></include>
-			  
+			 
+		  </methods>
+		  </class>
+		   <class name="testscripts.MobileSliderTest">
+		  <methods>
+			  <include name="verifyWhetherTheUserCanEditTheMobileSlider"></include>
+			 
 		  </methods>
 		  </class>
       

@@ -52,7 +52,7 @@ public class BasePage {
 		throw new Exception("browser is not correct");
 	}
 		//driver = WebDriverManager.chromedriver(options).create();
-		driver.get("https://groceryapp.uniqassosiates.com/admin");
+		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
 	}
 

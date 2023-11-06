@@ -10,7 +10,7 @@ import Pages.MobileSliderPage;
 import Utilites.ExcelUtility;
 
 public class MobileSliderTest extends BasePage {
-	@Test
+	@Test(groups= {"smoke"},description="Verify whether user can edit the mobile slider")
 
 	public void verifyWhetherTheUserCanEditTheMobileSlider() {
 		String usernamefield = ExcelUtility.getString(1, 0, "LoginPage");

@@ -12,7 +12,7 @@ import Pages.PushNotificationPage;
 import Utilites.ExcelUtility;
 
 public class PushNotificationTest extends BasePage {
-	@Test
+	@Test(groups= {"smoke"},description="Verify whether user can  able to send on the push notification")
 
 	public void verifyTheUSerCanAbleToSendOnThePushNotification() {
 
